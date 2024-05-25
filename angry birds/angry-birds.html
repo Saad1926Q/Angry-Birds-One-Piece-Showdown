@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="angry-birds.css">
+</head>
+<body>
+    <audio src="op_theme_new.mp3" id="themesong" loop></audio>
+
+    <canvas id="gameCanvas"></canvas>
+
+
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <h1 class="angry-birds-font">Angry Birds</h1>
+            <h2 class="one-piece-font">Gomu Gomu No Launch: One Piece Showdown</h2>
+            <button id="start-game" class="angry-birds-font">Start</button>
+            <button id="about-game" class="angry-birds-font">About</button>
+        </div>
+    </div>
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <h2 class="angry-birds-font">About this Game</h2>
+            <p class="angry-birds-font">
+                Inspired by the beloved Angry Birds franchise, I've embarked on a creative journey to reimagine its magic through
+                Matter.js. Utilizing Matter.js's robust physics engine, I've meticulously crafted a dynamic game environment where
+                players can relive the excitement of launching Luffy in his Gum-Gum Balloon form to overcome intricate challenges.
+                Instead of a traditional slingshot mechanic, players engage in intuitive mouse-driven interactions, dragging and
+                releasing Luffy to topple elaborate structures and outwit iconic adversaries from the One Piece anime.
+                
+                With meticulous attention to physics realism, I've fine-tuned parameters such as gravity, restitution, and friction to
+                deliver an authentic gaming experience reminiscent of the original. From designing captivating levels filled with
+                ingenious obstacles to implementing seamless user controls, every element of this project embodies the spirit of the
+                iconic classic. Through this endeavor, I aim to evoke nostalgia while offering a fresh, immersive take on the timeless
+                joy of Angry Birds, all made possible by the versatility and power of Matter.js.
+                
+                Join Luffy on his epic adventure, battling enemies in the sequence of the original anime, and experience the thrill of
+                Gomu Gomu No Launch: One Piece Showdown!
+            </p>
+            <h2 class="angry-birds-font">User Guide</h2>
+            <p class="angry-birds-font">
+                Objective: Your objective is to defeat the mischievous adversaries by strategically launching birds to topple their structures.
+            </p>
+            <p class="angry-birds-font">
+                Controls:Launch Luffy: Click and drag on the player to set its trajectory and release to launch.
+            </p>
+        </div>
+    </div>
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+                <h2 id="level-end-text" class="angry-birds-font"></h2>
+                <img class="game-over-image">
+                <button id="next-level-button" class="retro-font"></button>
+            </div>
+        </div>
+    
+    <div id="storyModal" class="modal retro-font">
+        <div class="modal-content">
+            <div class="story-content">
+
+            </div>
+            <img src="logo.jpg" alt="">
+            <button class="story-close">close</button>
+        </div>
+        
+    </div>
+
+
+    <script src="../matter.js"></script>
+    <script src="angry-birds.js"></script>
+</body>
+</html>

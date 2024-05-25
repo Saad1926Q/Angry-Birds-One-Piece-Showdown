@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background-image: url('maps/newmap2.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+@font-face {
+    font-family: 'angry birds';
+    src: url('angrybirds-regular.ttf');
+}
+
+@font-face {
+    font-family: one piece;
+    src: url("one\ piece\ font.ttf");
+}
+
+@font-face {
+    font-family: "retro";
+    src: url("Retro\ Gaming.ttf");
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.angry-birds-font{
+    font-family: 'angry birds';
+}
+
+#gameModal .one-piece-font{
+    font-family: "one piece";
+    font-size: 46px;
+    margin-top: -45px;
+}
+
+#aboutModal .angry-birds-font{
+    font-family: 'angry birds';
+    font-size: 20px;
+}
+
+.one-piece-font{
+    font-family: "one piece";
+}
+
+#storyModal .one-piece-font{
+    font-family: "one piece";
+    font-size: 32px;
+}
+
+#storyModal .angry-birds-font{
+    font-family: 'angry birds';
+    font-size: 26px;
+}
+
+.retro-font{
+    font-family: "retro";
+    font-size: 18px;;
+}
+
+.modal-content h1{
+    font-size: 80px;
+}
+
+.modal-content img {
+    width: 150px;
+    height: auto;
+    margin: 20px 0; 
+}
+
+.modal-content button{
+    font-family: "angry birds";
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#level-end-text{
+    font-size: 66px;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.modal-content button:hover{
+    background-color: #888;
+}
+
+#aboutModal {
+    z-index: 2;
+}
+
+#gameModal h1{
+    font-size: 112px;
+}
