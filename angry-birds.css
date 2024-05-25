@@ -1,10 +1,9 @@
-body{
+body {
     margin: 0;
     background-image: url('maps/newmap2.jpg');
     background-size: cover; 
     background-position: center; 
 }
-
 
 @font-face {
     font-family: 'angry birds';
@@ -21,7 +20,7 @@ body{
     src: url("Retro\ Gaming.ttf");
 }
 
-.modal{
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -33,7 +32,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5); 
 }
 
-.modal-content{
+.modal-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,41 +46,41 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.angry-birds-font{
+.angry-birds-font {
     font-family: 'angry birds';
 }
 
-#gameModal .one-piece-font{
+#gameModal .one-piece-font {
     font-family: "one piece";
     font-size: 46px;
     margin-top: -45px;
 }
 
-#aboutModal .angry-birds-font{
+#aboutModal .angry-birds-font {
     font-family: 'angry birds';
     font-size: 20px;
 }
 
-.one-piece-font{
+.one-piece-font {
     font-family: "one piece";
 }
 
-#storyModal .one-piece-font{
+#storyModal .one-piece-font {
     font-family: "one piece";
     font-size: 32px;
 }
 
-#storyModal .angry-birds-font{
+#storyModal .angry-birds-font {
     font-family: 'angry birds';
     font-size: 26px;
 }
 
-.retro-font{
+.retro-font {
     font-family: "retro";
-    font-size: 18px;;
+    font-size: 18px;
 }
 
-.modal-content h1{
+.modal-content h1 {
     font-size: 80px;
 }
 
@@ -91,7 +90,7 @@ body{
     margin: 20px 0; 
 }
 
-.modal-content button{
+.modal-content button {
     font-family: "angry birds";
     border: none;
     background: transparent;
@@ -99,13 +98,13 @@ body{
     font-size: 40px;
 }
 
-#level-end-text{
+#level-end-text {
     font-size: 66px;
     margin-top: 14px;
     margin-bottom: 0;
 }
 
-.modal-content button:hover{
+.modal-content button:hover {
     background-color: #888;
 }
 
@@ -113,6 +112,49 @@ body{
     z-index: 2;
 }
 
-#gameModal h1{
+#gameModal h1 {
     font-size: 112px;
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+        margin: 10% auto;
+    }
+
+    .modal-content h1 {
+        font-size: 50px;
+    }
+
+    #gameModal h1 {
+        font-size: 60px;
+    }
+
+    #gameModal .one-piece-font {
+        font-size: 24px;
+        margin-top: -25px;
+    }
+
+    #aboutModal .angry-birds-font,
+    #storyModal .angry-birds-font {
+        font-size: 16px;
+    }
+
+    #storyModal .one-piece-font {
+        font-size: 20px;
+    }
+
+    .modal-content button {
+        font-size: 30px;
+    }
+
+    #level-end-text {
+        font-size: 40px;
+    }
+
+    .modal-content img {
+        width: 100px;
+        margin: 10px 0;
+    }
 }
