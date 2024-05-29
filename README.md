@@ -43,10 +43,5 @@ We welcome your feedback and suggestions! Please feel free to:
 - Suggest new features or improvements
 - Contribute to the project by submitting pull requests
 
-## Contact
-
-For any questions or feedback, you can reach me at:
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
 
 Thank you for playing **Angry Birds: One Piece Showdown**! Enjoy the game and stay tuned for more updates.
